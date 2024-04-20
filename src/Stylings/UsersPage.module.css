@@ -1,0 +1,40 @@
+.responsive-table table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #57636f; /* Dark gray for text for contrast and readability */
+}
+
+table-hover tbody tr:hover {
+    background-color: #eff0f1; /* Soft gray for hover, adding interactive feel */
+    transform: translateX(5px); /* Slight move to the right on hover for a dynamic effect */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+table th, table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6; /* Light gray border for a clean separation */
+}
+
+table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #1a2836;
+    background-image: linear-gradient(to right, #b0d8d8f9 1%, rgb(197, 218, 212) 100%); /* Soft green gradient for the header */
+    color: #39353e; /* Dark slate for text to ensure readability */
+}
+
+/* Ensuring rows are visually distinct */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #3876b3; /* Light background for alternate rows */
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6; /* Solid border for the entire table for a cohesive look */
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto; /* Allows table to be scrollable horizontally on smaller screens */
+    -webkit-overflow-scrolling: touch;
+}

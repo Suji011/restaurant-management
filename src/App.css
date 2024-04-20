@@ -1,0 +1,113 @@
+/* App.css or a dedicated CSS file */
+.login-container {
+    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    min-height: 100vh;
+  }
+  
+  .login-card {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+  }
+  
+  .login-button {
+    background-color: #2575fc;
+    border: none;
+  }
+  
+  .login-button:hover {
+    background-color: #6a11cb;
+  }
+  
+  .login-title {
+    color: #2575fc;
+  }
+  @media (max-width: 768px) {
+    .login-card {
+      padding: 20px;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .login-card {
+      padding: 40px;
+    }
+  }
+
+  .about-page h2 {
+    color:rgb(76, 28, 134);
+  }
+
+  .about-page h3
+  {
+    color: rgb(16, 52, 143);
+  }
+  .landing-page .btnlearnmore
+  {
+    color: violet;
+  }
+
+  .testimonial h3
+  {
+    color:rgb(76, 28, 134);
+  }
+
+  .testimonial h4{
+    color: rgb(16, 52, 143);
+  }
+
+  .footerdiv h6
+  {
+    color:rgb(76, 28, 134);
+  }
+
+  .footerdiv p
+  {
+color: rgb(58, 14, 101);
+  }
+  
+  .footerdiv span
+  {
+color: rgb(81, 39, 120);
+  }
+
+  .footerdiv .footerdivbottom
+  {
+    background-color: #1c0e2de1;
+  }
+  
+
+  .introLandingPage  .h2
+  {
+    color:rgb(76, 28, 134);
+  }
+  
+  .introLandingPage  .btnLearMore
+  {
+   
+    background-color: #35113f;
+  }
+
+  .headerClass .btnGetStarted
+  {
+    color: #ffffff;
+    border-color: #87a1df;
+  }
+
+  .headerClass .headerContainer *
+  {
+    color:rgb(54, 20, 96);
+   
+  }
+
+  .headerClass .simplify
+
+  {
+   
+   color: rgb(79, 67, 97);
+   
+  }
+
+
+
+
+  
